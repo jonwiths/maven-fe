@@ -11,15 +11,15 @@
 }
 
 .link__navlink {
-  @apply block py-2 px-4 text-blue-700 hover:text-blue-900 font-semibold rounded md:bg-transparent;
+  @apply block py-2 px-4 text-gray-800 hover:text-blue-900 font-semibold rounded text-lg;
 }
 
 .link__navlink_active {
-  @apply block py-2 px-4 bg-blue-700 text-blue-50  font-semibold rounded;
+  @apply block py-2 px-4 bg-gray-700 text-blue-50 font-semibold rounded text-lg;
 }
 
 .btn_enroll {
-  @apply block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base px-4 py-2 text-center  dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
+  @apply block text-white bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:outline-none  font-medium rounded-lg text-lg  py-2 px-4 text-center;
 }
 
 /* Mobile */

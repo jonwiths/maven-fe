@@ -120,6 +120,7 @@ const LadingPageNav = () => {
                         ? style.link__navlink_mobile
                         : style.link__navlink_mobile
                     }
+                    onClick={toggleMobileNav}
                     aria-current="page"
                   >
                     {link.label}
@@ -129,12 +130,17 @@ const LadingPageNav = () => {
             </div>
             <div className="mt-2 mb-6 border border-gray-300 w-full"></div>
             <div className="flex flex-col w-full gap-2 items-center">
-              <Link to="/enroll" className={`${style.btn__enroll_mobile} `}>
+              <Link
+                to="/enroll"
+                className={`${style.btn__enroll_mobile}`}
+                onClick={toggleMobileNav}
+              >
                 Enroll Now
               </Link>
               <Link
                 to="/login"
                 className={`${style.link__navlink_mobile} text-center`}
+                onClick={toggleMobileNav}
               >
                 Login
               </Link>
