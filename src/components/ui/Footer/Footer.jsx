@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import mavenLogo from '../../../assets/images/logo-main.png';
 
 const links = [
@@ -22,7 +24,7 @@ const links = [
 const Footer = () => {
   return (
     <>
-      <footer className="bg-white shadow dark:bg-gray-900  font-poppins">
+      <footer className="bg-white shadow dark:bg-gray-900 font-poppins">
         <div className="w-full max-w-screen-2xl mx-auto p-4 md:py-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <a
@@ -34,15 +36,15 @@ const Footer = () => {
                 Maven-edu
               </span>
             </a>
-            <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+            <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-100 sm:mb-0 ">
               {links.map((link) => (
                 <li key={link.label}>
-                  <a
-                    href={`${link.href}`}
+                  <Link
+                    to={`${link.href}`}
                     className="mr-4 hover:underline md:mr-6 "
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

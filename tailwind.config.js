@@ -12,7 +12,10 @@ export default {
     },
     extend: {
       fontFamily: {
-        poppins: ['Poppins']
+        poppins: ['Poppins', 'sans']
+      },
+      backgroundImage: {
+        'hero-bg': "url('/src/assets/images/hero-bg.png')"
       }
     }
   },

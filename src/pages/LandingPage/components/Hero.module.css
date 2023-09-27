@@ -1,0 +1,31 @@
+@tailwind components;
+
+@layer components {
+  .wrapper {
+    @apply flex flex-col lg:flex-row-reverse lg:justify-around justify-center text-left text-gray-800;
+  }
+
+  .left__wrapper {
+    @apply z-10 bg-hero-bg bg-no-repeat bg-center md:py-0 flex flex-col md:items-start items-center justify-center w-full lg:h-auto h-screen;
+  }
+
+  .right__wrapper {
+    @apply flex flex-col md:items-start justify-center w-full p-4 md:h-[90vh] h-auto md:text-left text-center;
+  }
+
+  .invest {
+    @apply lg:text-7xl md:text-5xl text-4xl pb-3 font-semibold;
+  }
+
+  .knowledge {
+    @apply lg:text-7xl md:text-5xl text-4xl pb-3 font-semibold;
+  }
+
+  .future {
+    @apply lg:text-7xl md:text-5xl text-4xl pb-3 mb-2 text-transparent bg-clip-text bg-gradient-to-br from-blue-500 to-violet-600 font-bold;
+  }
+
+  .enroll__blue_btn {
+    @apply px-7 py-4 text-center bg-gray-600 hover:bg-gray-700   text-white rounded-2xl font-semibold;
+  }
+}

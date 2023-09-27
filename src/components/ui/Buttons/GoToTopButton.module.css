@@ -1,0 +1,27 @@
+/* GoToTopButton.css */
+.go_to_top_btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  line-height: 50px;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.go_to_top_btn.visible {
+  display: block;
+  opacity: 0.7;
+}
+
+.go_to_top_btn:hover {
+  opacity: 1;
+}

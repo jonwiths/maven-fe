@@ -8,6 +8,10 @@ import mainLogo from '../../../assets/images/logo-main.png';
 
 const links = [
   {
+    label: 'Home',
+    href: '/'
+  },
+  {
     label: 'Services',
     href: '/services'
   },
@@ -67,10 +71,7 @@ const LadingPageNav = () => {
             </div>
           </div>
           <div className="flex md:order-2 flex-1 justify-end">
-            <div className=" lg:flex hidden items-center gap-4 ">
-              <Link to="/enroll" className={style.btn_enroll}>
-                Enroll Now
-              </Link>
+            <div className=" lg:flex hidden items-center gap-1 ">
               <NavLink
                 to="/login"
                 className={({ isActive }) =>
@@ -82,6 +83,9 @@ const LadingPageNav = () => {
               >
                 Login
               </NavLink>
+              <Link to="/enroll" className={style.btn_enroll}>
+                Enroll Now
+              </Link>
             </div>
             <button type="button" onClick={toggleMobileNav}>
               <HiMenuAlt3 className="text-[24px] text-gray-800 lg:hidden block" />
@@ -89,9 +93,10 @@ const LadingPageNav = () => {
           </div>
         </div>
       </nav>
+
       {isMobileNavOpen && (
         <nav
-          className={`font-poppins lg:hidden fixed top-0 left-0 z-30 h-screen w-full bg-gray-50 transition ease-in-out`}
+          className={`p-4 font-poppins lg:hidden fixed top-0 left-0 z-30 h-screen w-full bg-gray-50 transition ease-in-out`}
         >
           <div className="absolute top-4 right-4">
             <button type="button" onClick={toggleMobileNav}>
@@ -131,18 +136,18 @@ const LadingPageNav = () => {
             <div className="mt-2 mb-6 border border-gray-300 w-full"></div>
             <div className="flex flex-col w-full gap-2 items-center">
               <Link
-                to="/enroll"
-                className={`${style.btn__enroll_mobile}`}
-                onClick={toggleMobileNav}
-              >
-                Enroll Now
-              </Link>
-              <Link
                 to="/login"
                 className={`${style.link__navlink_mobile} text-center`}
                 onClick={toggleMobileNav}
               >
                 Login
+              </Link>
+              <Link
+                to="/enroll"
+                className={`${style.btn__enroll_mobile}`}
+                onClick={toggleMobileNav}
+              >
+                Enroll Now
               </Link>
             </div>
           </div>

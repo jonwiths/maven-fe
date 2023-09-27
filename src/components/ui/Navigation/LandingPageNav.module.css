@@ -1,5 +1,5 @@
 .nav {
-  @apply sticky bg-white font-poppins  w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600;
+  @apply sticky bg-white font-poppins  w-full z-20 top-0 left-0 shadow-md shadow-gray-300;
 }
 
 .wrapper {
