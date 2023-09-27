@@ -1,13 +1,14 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import LandingPageLayout from './layout/LandingPageLayout';
-import LandingPage from './pages/LandingPage';
-import AboutUsPage from './pages/AboutUsPage';
-import ServicesPage from './pages/ServicesPage';
-import BecomeAMentorPage from './pages/BecomeAMentorPage';
+
 import LoginPage from './pages/LoginPage';
-import EnrollPage from './pages/EnrollPage';
-import ForgotPassword from './pages/ForgotPassword';
 import ErrorPage from './pages/ErrorPage';
+import EnrollPage from './pages/EnrollPage';
+import AboutUsPage from './pages/AboutUsPage';
+import LandingPage from './pages/LandingPage';
+import ServicesPage from './pages/ServicesPage';
+import ForgotPassword from './pages/ForgotPassword';
+import BecomeAMentorPage from './pages/BecomeAMentorPage';
+import LandingPageLayout from './layout/LandingPageLayout';
 
 const AppRouter = () => {
   return (

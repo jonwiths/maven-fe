@@ -1,8 +1,13 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
 import { BiLogIn } from 'react-icons/bi';
 import { IoIosPeople } from 'react-icons/io';
 import { AiOutlineRise } from 'react-icons/ai';
 
 import style from './HowDoesItWork.module.css';
+import { useEffect } from 'react';
 
 const contents = [
   {
@@ -26,8 +31,11 @@ const contents = [
 ];
 
 const HowDoesItWork = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <section className="bg-white py-8 text-gray-800">
+    <section className="bg-white py-8 text-gray-800" data-aos="fade-up">
       <div className={style.custom__container}>
         <div className="flex flex-col items-center justify-center md:text-left text-center">
           <h3>Mentoring process</h3>
@@ -35,7 +43,10 @@ const HowDoesItWork = () => {
           <p className="mt-4">
             Looking for new learning setup? We got it for you!
           </p>
-          <div className="flex lg:flex-row flex-col gap-4  mt-10 justify-around w-full ">
+          <div
+            className="flex lg:flex-row flex-col gap-4  mt-10 justify-around w-full"
+            data-aos="fade-right"
+          >
             {contents.map((content) => (
               <div key={content.title} className={style.how}>
                 <div className=" bg-gray-50 shadow-xl text-gray-800 rounded-full w-24 h-24 flex items-center justify-center">

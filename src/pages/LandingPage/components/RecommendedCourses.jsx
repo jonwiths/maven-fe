@@ -1,3 +1,8 @@
+import { useEffect } from 'react';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -62,8 +67,11 @@ const coursesImage = [
 ];
 
 const RecommendedCourses = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <section className="py-8">
+    <section className="py-8" data-aos="fade-up">
       <div className="custom-container p-4">
         <div className="flex flex-col items-center justify-center">
           <h3>Limited Courses</h3>

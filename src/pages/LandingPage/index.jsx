@@ -1,6 +1,7 @@
 import SignUpBanner from '../../components/ui/Banner/SignUpBanner';
 import StatsBanner from '../../components/ui/Banner/StatsBanner';
 import Layout from '../../components/ui/Layout/Layout';
+import AboutMavenFaqs from './components/AboutMavenFaqs';
 import Hero from './components/Hero';
 import HowDoesItWork from './components/HowDoesItWork';
 import RecommendedCourses from './components/RecommendedCourses';
@@ -17,6 +18,7 @@ const LandingPage = () => {
       <Layout>
         <RecommendedCourses />
         <WheWeAreBetter />
+        <AboutMavenFaqs />
       </Layout>
       <StatsBanner />
     </>

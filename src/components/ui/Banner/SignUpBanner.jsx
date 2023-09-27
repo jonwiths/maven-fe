@@ -14,7 +14,7 @@ const SignUpBanner = () => {
             Enroll now and be our student.
           </h2>
         </div>
-        <Link to="/register" className={style.enroll__blue_btn}>
+        <Link to="/enroll" className={style.enroll__blue_btn}>
           Enroll Now
         </Link>
       </div>
