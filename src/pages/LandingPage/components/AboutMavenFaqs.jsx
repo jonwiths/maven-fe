@@ -35,6 +35,7 @@ const AboutMavenFaqs = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+
   const [selected, setSelected] = useState(null);
 
   const handleToggle = (id) => {

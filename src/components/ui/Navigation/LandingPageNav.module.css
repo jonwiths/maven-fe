@@ -11,11 +11,11 @@
 }
 
 .link__navlink {
-  @apply block py-2 px-4 text-gray-800 hover:text-blue-900 font-semibold rounded text-lg;
+  @apply block py-1 px-3 text-gray-800 hover:text-blue-900 font-normal rounded text-lg;
 }
 
 .link__navlink_active {
-  @apply block py-2 px-4 bg-gray-700 text-blue-50 font-semibold rounded text-lg;
+  @apply block py-1 px-3 text-blue-800 font-semibold rounded text-lg;
 }
 
 .btn_enroll {

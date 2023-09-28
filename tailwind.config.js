@@ -15,7 +15,8 @@ export default {
         poppins: ['Poppins', 'sans']
       },
       backgroundImage: {
-        'hero-bg': "url('/src/assets/images/hero-bg.png')"
+        'hero-bg': "url('/src/assets/images/hero-bg.png')",
+        'header-bg': "url('/src/assets/images/page-header-bg.jpg')"
       }
     }
   },

@@ -1,0 +1,11 @@
+@tailwind components;
+
+@layer components {
+  .rounded__btn_dark {
+    @apply py-3 px-5 mt-1 text-center border border-blue-700 bg-white text-blue-700 font-semibold hover:bg-blue-200 rounded-full;
+  }
+
+  .rounded__btn_light {
+    @apply py-3 px-5 mt-1 text-center text-white bg-blue-600 font-semibold hover:bg-blue-700 rounded-full;
+  }
+}
