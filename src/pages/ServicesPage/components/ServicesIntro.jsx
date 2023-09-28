@@ -17,7 +17,7 @@ const ServicesIntro = () => {
 
   return (
     <>
-      <section className="mt-6" data-aos="fade-up">
+      <section className="mt-6 overflow-hidden" data-aos="fade-up">
         <div className="mx-auto">
           <h1 className="font-semibold text-center ">
             Do you want to <strong className="text-blue-700">change </strong>

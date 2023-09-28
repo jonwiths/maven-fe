@@ -35,7 +35,7 @@ const HowDoesItWork = () => {
     AOS.init();
   }, []);
   return (
-    <section className="bg-white py-8 text-gray-800" data-aos="fade-up">
+    <section className="bg-white py-8 text-gray-800 " data-aos="fade-up">
       <div className={style.custom__container}>
         <div className="flex flex-col items-center justify-center md:text-left text-center">
           <h3>Mentoring process</h3>

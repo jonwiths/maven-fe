@@ -5,7 +5,7 @@ import AboutMavenFaqs from './components/AboutMavenFaqs';
 import Hero from './components/Hero';
 import HowDoesItWork from './components/HowDoesItWork';
 import RecommendedCourses from './components/RecommendedCourses';
-import WheWeAreBetter from './components/WheWeAreBetter';
+import WhyWeAreBetter from './components/WhyWeAreBetter';
 
 const LandingPage = () => {
   return (
@@ -17,7 +17,7 @@ const LandingPage = () => {
       <SignUpBanner />
       <Layout>
         <RecommendedCourses />
-        <WheWeAreBetter />
+        <WhyWeAreBetter />
         <AboutMavenFaqs />
       </Layout>
       <StatsBanner />

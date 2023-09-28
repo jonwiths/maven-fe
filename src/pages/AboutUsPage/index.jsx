@@ -1,5 +1,16 @@
+import PagesHeader from '../../components/ui/Header/PagesHeader';
+import Layout from '../../components/ui/Layout/Layout';
+import AboutUsIntro from './components/AboutUsIntro';
+
 const AboutUsPage = () => {
-  return <div>AboutUsPage</div>;
+  return (
+    <>
+      <PagesHeader pageTitle="About Maven-edu" />
+      <Layout>
+        <AboutUsIntro />
+      </Layout>
+    </>
+  );
 };
 
 export default AboutUsPage;
