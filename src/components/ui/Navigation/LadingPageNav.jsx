@@ -125,8 +125,8 @@ const LadingPageNav = () => {
                         ? style.link__navlink_mobile
                         : style.link__navlink_mobile
                     }
-                    onClick={toggleMobileNav}
                     aria-current="page"
+                    onClick={() => (window.location.href = link.href)}
                   >
                     {link.label}
                   </NavLink>
