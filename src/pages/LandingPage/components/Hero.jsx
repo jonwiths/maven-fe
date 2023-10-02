@@ -15,7 +15,7 @@ const Hero = () => {
 
   return (
     <>
-      <section className={style.wrapper} data-aos="fade-up">
+      <section id="hero" className={style.wrapper} data-aos="fade-up">
         <div className={`${style.left__wrapper} `}></div>
 
         <div className={style.right__wrapper}>

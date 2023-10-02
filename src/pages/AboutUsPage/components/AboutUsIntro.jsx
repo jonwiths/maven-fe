@@ -1,8 +1,14 @@
-import { BsFillCheckCircleFill } from 'react-icons/bs';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { FaEnvelope } from 'react-icons/fa';
+import { BsFillCheckCircleFill } from 'react-icons/bs';
+
+import Accordion from '../../../components/ui/Accordion/Accordion';
 
 import aboutBg from '../../../assets/images/about-us.webp';
-import Accordion from '../../../components/ui/Accordion/Accordion';
+
+AOS.init();
+
 const faqs = [
   {
     id: 1,
@@ -25,8 +31,8 @@ const faqs = [
 
 const AboutUsIntro = () => {
   return (
-    <section>
-      <div className="container w-full mx-auto flex flex-col-reverse lg:flex-row">
+    <section id="about-us" data-aos="fade-up">
+      <div className=" w-full mx-auto flex flex-col-reverse lg:flex-row gap-4 my-4">
         <div className="flex-1 w-full ">
           <h5 className="text-blue-800 md:pt-0 pt-2">
             What is this Maven-edu?
@@ -77,7 +83,7 @@ const AboutUsIntro = () => {
             <Accordion faqs={faqs} />
           </div>
         </div>
-        <div className="flex-1 w-full p-2 ">
+        <div className="flex-1 w-full ">
           <img
             src={aboutBg}
             alt=""

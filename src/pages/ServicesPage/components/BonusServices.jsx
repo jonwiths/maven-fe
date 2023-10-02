@@ -36,7 +36,7 @@ const BonusServices = () => {
   }, []);
   return (
     <section
-      className="bg-gray-100 py-8 text-gray-800 rounded-xl"
+      className="bg-gray-50 py-8 text-gray-800 rounded-xl"
       data-aos="fade-up"
     >
       <div className={style.custom__container}>

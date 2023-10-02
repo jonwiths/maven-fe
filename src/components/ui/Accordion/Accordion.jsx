@@ -11,18 +11,18 @@ const Accordion = ({ faqs }) => {
     setSelected(id);
   };
   return (
-    <article>
+    <article className="">
       {faqs.map((faq) => (
         <article
-          className="max-w-[600px] mb-1 hover:cursor-pointer mx-auto"
+          className="max-w-[600px] md:w-[600px] mb-1 hover:cursor-pointer mx-auto"
           key={faq.id}
           onClick={() => handleToggle(faq.id)}
         >
           <div
             className={
               selected === faq.id
-                ? 'bg-gray-700 text-white flex justify-between items-center gap-3  border-gray-700 rounded-xl p-2 hover:shadow-lg'
-                : 'flex justify-between items-center gap-3 border hover:bg-gray-100 border-gray-700 rounded-xl p-2 hover:shadow-lg text-gray-700'
+                ? 'w-full bg-gray-700 text-white flex justify-between items-center gap-3  border-gray-700 rounded-xl p-2 hover:shadow-lg'
+                : ' w-full flex justify-between items-center gap-3 border hover:bg-gray-100 border-gray-700 rounded-xl p-2 hover:shadow-lg text-gray-700'
             }
           >
             <h4 className="font-semibold ">{faq.item}</h4>
