@@ -150,7 +150,7 @@ const Contacts = () => {
                     maxLength="50"
                     id="contacts_name"
                     name="contacts_name"
-                    placeholder="Enter your name"
+                    placeholder="Juan Dela Cruz"
                     onChange={(e) => setName(e.target.value)}
                     className="md:mt-0 mt-1 p-2 w-full outline-none text-gray-900 rounded-2xl"
                   />
@@ -164,7 +164,7 @@ const Contacts = () => {
                     maxLength="50"
                     id="contacts_email"
                     name="contacts_email"
-                    placeholder="Enter your email"
+                    placeholder="juandelacruz@email.com"
                     onChange={(e) => setEmail(e.target.value)}
                     className="md:mt-0 mt-1 p-2 w-full outline-none text-gray-900 rounded-2xl"
                   />

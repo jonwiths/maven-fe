@@ -58,7 +58,7 @@ const coursesImage = [
   {
     id: 8,
     img_link: soon,
-    label: 'Coming soon...'
+    label: 'More courses soon...'
   }
 ];
 
