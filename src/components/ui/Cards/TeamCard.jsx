@@ -70,10 +70,13 @@ const TeamCard = () => {
     <section className="">
       <Swiper
         breakpoints={{
-          748: {
+          1000: {
             slidesPerView: 3
           },
-          747: {
+          600: {
+            slidesPerView: 2
+          },
+          400: {
             slidesPerView: 1
           }
         }}
