@@ -145,42 +145,42 @@ const Contacts = () => {
                 <div className="mb-4">
                   <label htmlFor="contacts_name">Name</label>
                   <input
-                    name="contacts_name"
                     type="text"
-                    className="md:mt-0 mt-1 p-2 w-full outline-none text-gray-900 rounded-2xl"
-                    id="contacts_name"
-                    placeholder="Enter your name"
-                    maxLength="50"
                     value={name}
+                    maxLength="50"
+                    id="contacts_name"
+                    name="contacts_name"
+                    placeholder="Enter your name"
                     onChange={(e) => setName(e.target.value)}
+                    className="md:mt-0 mt-1 p-2 w-full outline-none text-gray-900 rounded-2xl"
                   />
                 </div>
                 <div className=" mb-4">
                   <label htmlFor="contacts_email ">Email</label>
                   <input
-                    ref={emailRef}
-                    name="contacts_email"
                     type="text"
-                    className="md:mt-0 mt-1 p-2 w-full outline-none text-gray-900 rounded-2xl"
-                    id="contacts_email"
-                    placeholder="Enter your email"
-                    maxLength="50"
                     value={email}
+                    ref={emailRef}
+                    maxLength="50"
+                    id="contacts_email"
+                    name="contacts_email"
+                    placeholder="Enter your email"
                     onChange={(e) => setEmail(e.target.value)}
+                    className="md:mt-0 mt-1 p-2 w-full outline-none text-gray-900 rounded-2xl"
                   />
                 </div>
                 <div className="mb-4">
                   <label htmlFor="contact_textarea">Message</label>
                   <textarea
-                    name="contacts_message"
-                    className="md:mt-0 mt-1 p-2 w-full outline-none text-gray-900 rounded-2xl"
-                    id="contact_textarea"
-                    placeholder="Enter your concern(s). 255 characters max*"
-                    cols="5"
                     rows="5"
+                    cols="5"
                     maxLength="255"
                     value={message}
+                    id="contact_textarea"
+                    name="contacts_message"
                     onChange={(e) => setMessage(e.target.value)}
+                    placeholder="Enter your concern(s). 255 characters max*"
+                    className="md:mt-0 mt-1 p-2 w-full outline-none text-gray-900 rounded-2xl"
                   />
                 </div>
                 {errMsg && (

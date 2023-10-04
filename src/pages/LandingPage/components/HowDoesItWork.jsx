@@ -7,7 +7,6 @@ import { IoIosPeople } from 'react-icons/io';
 import { AiOutlineRise } from 'react-icons/ai';
 
 import style from './HowDoesItWork.module.css';
-import { useEffect } from 'react';
 
 const contents = [
   {
@@ -31,9 +30,6 @@ const contents = [
 ];
 
 const HowDoesItWork = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <section className="bg-white py-8 text-gray-800 " data-aos="fade-up">
       <div className={style.custom__container}>

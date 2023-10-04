@@ -1,27 +1,23 @@
-import { useEffect } from 'react';
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
-// Import Swiper React components
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/grid';
 import 'swiper/css/pagination';
 
-// import required modules
-import { Grid, Pagination } from 'swiper/modules';
+import { Grid, Pagination, Navigation } from 'swiper/modules';
 
-import accountancy from '../../../assets/images/courses/accountancy-min.jpg';
-import comeng from '../../../assets/images/courses/com-eng-min.jpg';
 import it from '../../../assets/images/courses/it.jpg';
-import entrep from '../../../assets/images/courses/entrep-min.jpg';
 import hm from '../../../assets/images/courses/hm-min.jpg';
-import math from '../../../assets/images/courses/math-min.jpg';
-import english from '../../../assets/images/courses/english-min.jpg';
 import soon from '../../../assets/images/courses/soon.jpg';
+import math from '../../../assets/images/courses/math-min.jpg';
+import entrep from '../../../assets/images/courses/entrep-min.jpg';
+import comeng from '../../../assets/images/courses/com-eng-min.jpg';
+import english from '../../../assets/images/courses/english-min.jpg';
+import accountancy from '../../../assets/images/courses/accountancy-min.jpg';
 
 const coursesImage = [
   {
@@ -67,9 +63,6 @@ const coursesImage = [
 ];
 
 const RecommendedCourses = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <section className="py-8" data-aos="fade-up">
       <div className="custom-container p-4">
@@ -99,7 +92,8 @@ const RecommendedCourses = () => {
               pagination={{
                 clickable: true
               }}
-              modules={[Grid, Pagination]}
+              navigation={true}
+              modules={[Grid, Pagination, Navigation]}
               className="w-full"
             >
               {coursesImage.map((image) => (

@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -6,8 +5,6 @@ AOS.init();
 import { MdComputer } from 'react-icons/md';
 import { FaChalkboardTeacher } from 'react-icons/fa';
 import { BsFillCalendarCheckFill } from 'react-icons/bs';
-
-import style from './HowDoesItWork.module.css';
 
 const contents = [
   {
@@ -28,9 +25,6 @@ const contents = [
 ];
 
 const WhyWeAreBetter = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <section
       className="bg-gray-50 rounded-xl overflow-hidden p-4 "

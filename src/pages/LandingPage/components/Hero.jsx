@@ -1,18 +1,12 @@
-import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
+
 AOS.init();
 
 import style from './Hero.module.css';
-import logo from '../../../assets/images/logo-main.png';
 
 const Hero = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <>
       <section id="hero" className={style.wrapper} data-aos="fade-up">
