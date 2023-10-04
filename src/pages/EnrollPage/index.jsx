@@ -1,5 +1,5 @@
 const EnrollPage = () => {
-  return <div>EnrollPage</div>;
+  return <div>Dev still working on this page. </div>;
 };
 
 export default EnrollPage;

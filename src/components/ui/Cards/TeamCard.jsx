@@ -9,7 +9,7 @@ import alex from '../../../assets/images/profiles/alex-1.jpg';
 import jonslogar from '../../../assets/images/profiles/jonslogar-1.jpg';
 import arjay from '../../../assets/images/profiles/arjay-1.jpg';
 import cherry from '../../../assets/images/profiles/profile-cherry.webp';
-import maryJoy from '../../../assets/images/profiles/profile-mary-joy.webp';
+import maryJoy from '../../../assets/images/profiles/maryjoy.jpg';
 import sirBry from '../../../assets/images/profiles/profile-sir-bry1.jpeg';
 
 const aboutTeam = [
