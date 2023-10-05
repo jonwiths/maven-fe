@@ -24,7 +24,7 @@ const links = [
 const Footer = () => {
   return (
     <>
-      <footer className="bg-white shadow dark:bg-gray-900 font-poppins">
+      <footer className="shadow bg-slate-900 font-poppins">
         <div className="w-full max-w-screen-2xl mx-auto p-4 md:py-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <Link href="/" className="flex items-center mb-4 sm:mb-0">

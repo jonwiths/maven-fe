@@ -103,7 +103,8 @@ const RecommendedCourses = () => {
                     backgroundImage: `url(${image.img_link})`,
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center',
-                    backgroundSize: 'cover'
+                    backgroundSize: 'cover',
+                    alt: `${image.label}`
                   }}
                   className={`bg-red-500 w-full h-[350px]  rounded-xl  flex items-center justify-center  bg-fixed`}
                 >

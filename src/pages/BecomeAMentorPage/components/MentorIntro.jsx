@@ -55,7 +55,7 @@ const MentorIntro = () => {
         <div className="flex gap-4 md:flex-row flex-col items-center md:justify-center justify-start">
           <span className="flex items-center gap-2">
             <AiOutlineCheck size={20} className="text-green-700 " />
-            Bachelor's Degree
+            Bachelor&apos;s Degree
           </span>
           <span className="flex items-center gap-2">
             <AiOutlineCheck size={20} className="text-green-700" />
@@ -70,7 +70,7 @@ const MentorIntro = () => {
       <div className="py-4">
         <img
           src={homepageBg}
-          alt="homepage background"
+          alt="Become a mentor"
           className="h-[500px] border-2 border-blue-800 object-cover rounded-2xl"
         />
       </div>

@@ -1,5 +1,7 @@
+import LoginIntro from './components/LoginIntro';
+
 const LoginPage = () => {
-  return <div>Dev still working on this page. </div>;
+  return <LoginIntro />;
 };
 
 export default LoginPage;

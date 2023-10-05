@@ -19,7 +19,7 @@
 }
 
 .btn_enroll {
-  @apply block text-white bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:outline-none  font-medium rounded-lg text-lg  py-2 px-4 text-center;
+  @apply block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none  font-medium rounded-lg text-lg  py-2 px-4 text-center;
 }
 
 /* Mobile */

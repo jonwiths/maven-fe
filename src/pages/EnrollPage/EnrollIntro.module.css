@@ -1,0 +1,15 @@
+@tailwind components;
+
+@layer components {
+  .form_control {
+    @apply w-full flex items-center justify-center p-3 gap-1 bg-white rounded-xl mb-2;
+  }
+
+  .form__input {
+    @apply outline-none border-none w-full p-1 bg-transparent;
+  }
+
+  .label {
+    @apply font-semibold text-sm;
+  }
+}

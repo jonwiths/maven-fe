@@ -9,6 +9,7 @@ import ServicesPage from './pages/ServicesPage';
 import ForgotPassword from './pages/ForgotPassword';
 import BecomeAMentorPage from './pages/BecomeAMentorPage';
 import LandingPageLayout from './layout/LandingPageLayout';
+import TermsAndConditions from './pages/TermsAndConditions';
 
 const AppRouter = () => {
   return (
@@ -23,7 +24,7 @@ const AppRouter = () => {
           <Route path="/enroll" element={<EnrollPage />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
         </Route>
-
+        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>

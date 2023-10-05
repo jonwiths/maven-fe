@@ -49,7 +49,7 @@ const ServicesIntro = () => {
               <div className="mt-4 md:flex-1 w-full flex items-center justify-center">
                 <img
                   src={student}
-                  alt="..."
+                  alt="Student Services"
                   className="bg-contain max-h-[500px] w-fit rounded-2xl"
                 />
               </div>
@@ -84,7 +84,7 @@ const ServicesIntro = () => {
               <div className="mt-4 md:flex-1 w-full flex items-center justify-center">
                 <img
                   src={mentor}
-                  alt="..."
+                  alt="Mentor Services"
                   className="bg-contain max-h-[500px] w-fit rounded-2xl"
                 />
               </div>

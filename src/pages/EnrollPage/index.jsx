@@ -1,5 +1,11 @@
+import EnrollIntro from './EnrollIntro';
+
 const EnrollPage = () => {
-  return <div>Dev still working on this page. </div>;
+  return (
+    <>
+      <EnrollIntro />
+    </>
+  );
 };
 
 export default EnrollPage;

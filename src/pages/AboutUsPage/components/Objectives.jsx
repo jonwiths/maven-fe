@@ -54,7 +54,7 @@ const Objectives = () => {
       <div className="flex-1 w-full md:mt-0 mt-4">
         <img
           src={aboutBg}
-          alt="about maven edu"
+          alt="maven edu objectives"
           className="block md:h-[700px] h-[500px] w-full object-cover"
         />
       </div>

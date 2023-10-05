@@ -86,7 +86,7 @@ const AboutUsIntro = () => {
         <div className="flex-1 w-full ">
           <img
             src={aboutBg}
-            alt=""
+            alt="About maven edu"
             className="block md:h-[700px] h-[500px] w-full object-cover"
           />
         </div>
